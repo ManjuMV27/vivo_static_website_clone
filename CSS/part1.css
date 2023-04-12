@@ -1,0 +1,96 @@
+*{
+    /* margin: 0; */
+}
+.container4{
+    margin: 0;
+    width:89%;
+    height: 900px;
+    /* border: 2px solid red; */
+    display: flex;
+    margin-left: 50px;
+    background-color:rgb(236, 236, 243); 
+    position: relative;
+    
+}
+.container4 .col{
+    width:65%;
+    height:750px;
+    /* border:2px solid rgb(11, 25, 148);   */
+    /* margin-right: 10px; */
+    /* position: absolute; */
+    
+}
+.container4 .col .row{
+    position: relative;
+    height: 300px;
+    width: 95%;
+    margin-top: 20px;
+    /* border:2px solid rgb(185, 245, 47);   */
+    border-radius: 15px;
+    transition-duration: .4s;
+    transition-property: transform;
+    overflow: hidden;
+    background-color: white;
+    
+} 
+.container4 .col .row img{
+position: absolute;
+}
+.row img:hover{
+    /* background-image: ; */
+transform: scale(1.1);
+overflow: hidden;
+transition-duration: 2s;
+
+}
+.container4 .col .row .text{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 50px;
+    line-height: 0px;
+}
+/* .container4 .col .row .text1{
+    position: absolute;
+} */
+.container4 .col .row .text .p1{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(51, 49, 49);
+    
+}
+.container4 .col .row .text .p2{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(51, 49, 49);
+}
+.container4 .col .row .text1{
+    margin-top: 0px;
+    margin-left: 20px;
+    /* line-height: 20px; */
+}
+.container4 .col .row .text1 .p3{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(51, 49, 49);
+}
+.container4 .col .row .text1 .p4{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(51, 49, 49);
+}
+.discover{
+    /* margin-left: 80px; */
+    background-color:rgb(236, 236, 243);
+    width: 100%;
+    height:90px ;
+    margin: 0;
+    border:1px solid rgb(236, 236, 243);
+    /* position: absolute; */
+}
+.discover h1{
+    /* border: 1px solid black; */
+   /* padding-left: 80px; */
+   margin-left: 80px;
+}
